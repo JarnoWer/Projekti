@@ -5,6 +5,7 @@ Projektityön nimi on säähavaintoasema.
 ## Ryhmän jäsenet
 - Wermundsen Jarno
 - Zitting Miika
+- Hannu Kankkunen
 ## Aihe, tavoite ja toteutus
 ### Aihe
 Teemme havainnot tallentavan säähavaintoaseman kotikäyttöön hyödyntäen Rasberry Pi:tä, lämpötilasensoria ja internet yhteyttä.
