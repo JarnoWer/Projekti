@@ -22,7 +22,7 @@ Projektilla haetaan tarkkojen säähavaintojen automatisoitua taulukointia, sek�
 ## Tavoitteet:
 
 #### 1.	Mitä tavoitteita projektille on asetettu?
-- Tavoitteina saada aikaan itsenäisesti toimiva järjestelmä, jonka ei vaadi ulkoista käyttäjää erikseen taulukoimaan kerättyjä tietoja. 
+- Tavoitteina saada aikaan itsenäisesti toimiva järjestelmä, joka ei vaadi ulkoista käyttäjää erikseen taulukoimaan kerättyjä tietoja. 
 
 #### 2.	Mitä konkreettisia, mitattavia ja todennettavissa olevia tuloksia projektissa syntyy? Mainitse esimerkiksi mahdolliset ohjelmistokomponentit, dokumentit, kaaviot ja tutkimustulokset.
 - Tuloksia tulee väittämästi datasta jota sensorit tuottavat Raspberylle, nämä dokumentoidaan tarkasti pilvipalveluun arkistoitavaksi. Dokumentoimme projektin etenemisen tarkasti vaihe vaiheelta, jolloin dokumentointia uudelleen luettaessa olisi niitä vaiheita seuraamalla mahdollista toistaa samanlaiset tulokset toimivasta järjestelmästä.
