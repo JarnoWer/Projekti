@@ -6,7 +6,7 @@ import I2C_LCD_driver
 # Get I2C bus
 bus = smbus.SMBus(3)
 mylcd = I2C_LCD_driver.lcd()
-
+while True:
 # MCP9808 address, 0x18(24)
 # Select configuration register, 0x01(1)
 #		0x0000(00)	Continuous conversion mode, Power-up default
@@ -33,9 +33,17 @@ def temperature(ctemp):
     ftemp = ctemp * 1.8 + 32
     return ctemp
 
+<<<<<<< HEAD
 while True:
     
     mylcd.lcd_display_string('ctemp'(temperature), 1)
     
     mylcd.lcd_display_string("Date: %s" %time.strftime("%m/%d/%Y"), 2)
     
+=======
+
+mylcd.lcd_display_string('%ctemp'), 1)
+    
+mylcd.lcd_display_string("Date: %s" %time.strftime("%m/%d/%Y"), 2)
+time.sleep(5)
+>>>>>>> 7c1c4036b4c334b17eae68736fd6f6dbb46c44fb
