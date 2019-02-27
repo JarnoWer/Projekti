@@ -8,7 +8,7 @@ import smbus
 import time
 
 # Get I2C bus
-bus = smbus.SMBus(1)
+bus = smbus.SMBus(3)
 
 # MCP9808 address, 0x18(24)
 # Select configuration register, 0x01(1)
@@ -35,5 +35,5 @@ ctemp = ctemp * 0.0625
 ftemp = ctemp * 1.8 + 32
 
 # Output data to screen
-print "Temperature in Celsius is    : %.2f C" %ctemp
-print "Temperature in Fahrenheit is : %.2f F" %ftemp
+print ('Temperature in Celsius is    : %.2f C' %ctemp)
+print ('Temperature in Fahrenheit is : %.2f F' %ftemp)
