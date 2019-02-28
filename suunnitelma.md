@@ -54,14 +54,16 @@ Projektin riskit on kartoittettu alla olevaan taulukkoon.
 | ---	 | ---	 | ---	 | ---	 | ---	 | ---	 |
 | Avainhenkilö jättää projektin | 3 | 1 | Henkilökohtaiset syyt, muut opinnot, hyvä työtarjous, kuolema, muu vakava vammautuminen | Mielekkäiden työkokonaisuuksien takaaminen, nykyaikaiset välineet työlle, sitoutuminen opintojen jatkamiseen | Projektin tehtävän ja tulosten määrittely ja jako |
 | Projektin tehtävä jää muun työn jalkoihin | 2 | 2 | Projektikulttuuri heikko, töiden priorisointi epäonnistunut | Keskittyminen projektin tehtävään: n. 8-10t/vko lukujärjestykseen merkittyä työaikaa, säännölliset projekti palaverit | Päätös projektin keston, tavoitteen muuttamiseksi |
-| Perehtyminen ja osaaminen ei riitä | 1 | 3 | Huono materiaali, riittämätön ohjaus, täysin odottamaton ongelma | Hyvä perehtyminen ja töiden sunnittelu | Sovellusten vaihtaminen, pilvipalvelun tarjoajan vaihtaminen, yhteydenotto opettajiin ja/tai asiantuntijoihin.
-| Kustannusten nousu | 2 | 1 | Ei ymmärretä Azuren hinnoittelua | Luottokortin numeroa ei annettu palveluun | Vaihtoehtoinen palvelu Azurelle, kustannusten jakaminen |
+| Perehtyminen ja osaaminen ei riitä | 1 | 3 | Huono materiaali, riittämätön ohjaus, täysin odottamaton ongelma | Hyvä perehtyminen ja töiden sunnittelu | Sovellusten/Osien vaihtaminen, koko alustan vaihtaminen, yhteydenotto opettajiin ja/tai asiantuntijoihin.
+| Kustannusten nousu | 2 | 1 | Odottamattomia kustannuksia ilmaantuu | Huolellinen suunnittelu | Kustannusten jakaminen ja mahdollisesti ulkopuolisen rahoituksen hankkiminen |
+| Osien rikkoutuminen | 2 | 1 | Huolimaton käsittely, virhe kolvaamisessa tai todella virheellinen koodi | Laitteiden ja osien huolellinen käsittely | Joitakin kriittisiä osia käytettävissä on useampia ja selvitetty mahdolliset hankintapaikat ja aikataulut |
 
 ## Projektiryhmä 
 Projekti tehdään ryhmätyönä ryhmässä, johon kuuluvat 
 - Miika Zitting 
 - Jarno Wermundsen
-
+- Hannu Kankkunen
+Projektipäällikköä ei tarpeen erikseen nimetä, sillä työnjako ja suunnittelu hoidetaan huolellisesti ja tasa-arvoisesti.
 
 ## Projektin ympäristö 
 Projekti toteutetaan alustavasti Microsoftin Azure alustaa käytättäen. Palvelin toimii Ubuntu 18.04 käyttöjärjestelmää käytäen. Palvelimen tekniset ominaisuudet ovat vastaavanlaiset:
