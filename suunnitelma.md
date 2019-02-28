@@ -56,7 +56,7 @@ Projektin riskit on kartoittettu alla olevaan taulukkoon.
 | Projektin tehtävä jää muun työn jalkoihin | 2 | 2 | Projektikulttuuri heikko, töiden priorisointi epäonnistunut | Keskittyminen projektin tehtävään: n. 8-10t/vko lukujärjestykseen merkittyä työaikaa, säännölliset projekti palaverit | Päätös projektin keston, tavoitteen muuttamiseksi |
 | Perehtyminen ja osaaminen ei riitä | 1 | 3 | Huono materiaali, riittämätön ohjaus, täysin odottamaton ongelma | Hyvä perehtyminen ja töiden sunnittelu | Sovellusten/Osien vaihtaminen, koko alustan vaihtaminen, yhteydenotto opettajiin ja/tai asiantuntijoihin.
 | Kustannusten nousu | 2 | 1 | Odottamattomia kustannuksia ilmaantuu | Huolellinen suunnittelu | Kustannusten jakaminen ja mahdollisesti ulkopuolisen rahoituksen hankkiminen |
-| Osien rikkoutuminen | 2 | 1 | Huolimaton käsittely, virhe kolvaamisessa tai todella virheellinen koodi | Laitteiden ja osien huolellinen käsittely | Joitakin kriittisiä osia käytettävissä on useampia ja selvitetty mahdolliset hankintapaikat ja aikataulut |
+| Osien rikkoutuminen | 2 | 1 | Huolimaton käsittely, virhe kolvaamisessa tai todella virheellinen koodi | Laitteiden ja osien huolellinen käsittely | Joitakin kriittisiä osia on käytettävissä useampia ja selvitetty mahdolliset hankintapaikat ja aikataulut |
 
 ## Projektiryhmä 
 Projekti tehdään ryhmätyönä ryhmässä, johon kuuluvat 
