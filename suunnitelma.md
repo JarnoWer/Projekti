@@ -63,6 +63,7 @@ Projekti tehdään ryhmätyönä ryhmässä, johon kuuluvat
 - Miika Zitting 
 - Jarno Wermundsen
 - Hannu Kankkunen
+
 Projektipäällikköä ei tarpeen erikseen nimetä, sillä työnjako ja suunnittelu hoidetaan huolellisesti ja tasa-arvoisesti.
 
 ## Projektin ympäristö 
