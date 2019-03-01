@@ -26,22 +26,23 @@
 
 					
 # Projektin tehtävä
-Projektin tehtävänä on luoda VPN-palvelua pilvessä. Palvelimen hallinta Azuressa.
+Projektin tehtävänä on luoda Raspberry Pi lämpötilamittari Python ohjelmointikielellä.
 
 # Projektin tulostavoitteet
 Projektin tulostavoitteina ovat:
-- Toimiva VPN-palvelu
-- selitettynä VPN palvelujen teoriaa ja käsitteitä
-- VPN-yhteys, joka toimii mobiililaitteella ja tietokoneella
+- Raspberry Pi toiminta lämpötilasensorin kanssa
+- Python kielen osaamisen kehittyminen
+- Sovellus, joka lähettää sensorin tiedot eteenpäin luettavassa muodossa
 - Toistettavissa oleva projekti raportointi
 
 
 
 # Projektin oppimistavoitteet 
-Perehtyä VPN tekniikoihin ja palvelun tarjoamiseen. Tutustua palvelun tarjoamiseen ja hallintaan pilvipohjaisesti.
+Perehdytään Python kieleen ja sovelletaan opittua toimivan lopputuloksen varmistamiseksi. Tutustutaan eri vaihtoehtoihin, joilla lämpötilaa saa mitattua ja valitaan 
+projektiin sopiva sensori.
 
 # Projektin rajaus 
-Projektin piiriin ei kuulu palvelun markkionointi tai tuotteistaminen. Projektissa käytettäviä sovelluksia emme tee itse.
+Pidetään projekti yksinkertaisena, jotta lopputulos vastaa tavoitetta määritellyssä ajassa. Projekti on tarkoitettu omien taitojen kartuttamiseen, ei kaupalliseen käyttöön.
 
 
 
