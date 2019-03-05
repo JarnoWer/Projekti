@@ -68,16 +68,14 @@ Projekti tehdään ryhmätyönä ryhmässä, johon kuuluvat
 Projektipäällikköä ei tarpeen erikseen nimetä, sillä työnjako ja suunnittelu hoidetaan huolellisesti ja tasa-arvoisesti.
 
 ## Projektin ympäristö 
-Projekti toteutetaan alustavasti Microsoftin Azure alustaa käytättäen. Palvelin toimii Ubuntu 18.04 käyttöjärjestelmää käytäen. Palvelimen tekniset ominaisuudet ovat vastaavanlaiset:
-- 1 prosessoriydin (VCPUCore)
-- 2GB Keskusmuisti (RAM)
-- 30GB SSD
+- Raspberry Pi 3 - Raspbian käyttöjärjestelmällä
+- Adafruit 16x2 LCD näyttö
+- Adafruit MCP9808 Lämpötila-anturi
+- Google Sheets & Google API
 
 ## Käytettävät teknologiat, menetelmät ja työkalut 
-Projektissa VPN-palvelimella liikkuvan datan VPN tunnelointiin käytetään StrongSwan IPSec ohjelmistoa, sekä IKEv2 protokollaa. 
-Palvelimen etähallintaan Windowsilla käytetään PuTTy:a ja linuxilla suoraa terminaali SSH-yhteyttä.
-Projektin raportointi tehdään markdwonilla ja raportin jakaminen GitHub palvelua käyttäen. Lopullinen palautettava raportti kopioidaan markdownilla kirjoitetusta tekstistä Word dokumenttiin noudattamaan Haaga-Helian raportointiohjetta.
-Mobiililaitteilla käytämme Strongswan applikaatiota VPN yhteyden luomiseen palvelimellemme.
+Projektissa käytämme alustana Raspberry Pi 3, johon liitämme 16x2 kokoisen LCD näytön joka tulostaa näytölle lämpötilan Raspberryyn liitetyltä lämpötila-anturilta. Osien toimivuutta hallitsemme Python ohjelmointikielellä luodulla koodilla, jolla saamme anturin lukemaan tietoja jonka koodi muuttaa tulostettavaan muotoon näyttöä varten. 
+Lämpötilan mittaustulokset arkistoidaan myös Google Sheets palveluun Python koodin avulla. Google Sheetsin tulostus tapahtuu Pythoniin lisätyllä kirjastolla ja Googlen API avainten avulla.
 
 ## Projektin vaiheistus, aikataulu ja työmäärät
 
@@ -86,17 +84,16 @@ Käytettävissä oleva työmäärä on 8-12 tuntia/viikko.
 
 Työmäärät ja tehtävät vaihtelevat projektin vaiheen mukaan. Viikon alussa asetamme tavoitteen joka tulisi viikon aikana saavuttaa. Työmäärät jaetaan tasaisesti projektin tekijöiden kesken, omat erikoisosaamisalueet huomioon ottaen.
 
-Projektin alussa keskitymme tutustumaan VPN protokolliin ja erilaisten valmiiden kaupallisten palveluiden käyttämien tekniikoiden tutkimiseen. Azure vaatii tutustumista ennen palvelimen luontia ja käyttöönottoa, jotta pystymme projektin edetessä hallinnan Azuren kautta tarvittaessa hoitamaan. Kun tekniikat ja järjestelmät tuntuvat olevan hallussa, aloitamme projektin työvaiheen.
+Projektin alussa keskitymme tutustumaan Python ohjelmointikieleen, sekä Googlen API alustaan. Tutkimme myös millaisia osia tarvitsemme Raspberrya varten projektin onnistumiseksi. 
 
-Työvaiheessa keskitymme palvelimen konfigurointiin, sekä StrongSwanin ja IKEv2 ohjelmistojen toimintaan. 
+Työvaiheessa keskitymme koodin tuottamiseen, sekä sensorin ja näytön ohjaaminen koodin avulla. Kun olemme saaneet koodit erillisinä toimintakuntoon lähdemme kasaamaan näitä yhdeksi isommaksi kokonaisuudeksi jota Raspberry ajaisi automaattisesti käynnistyessään. 
 
-Testausvaiheessa olemme saaneet palvelimen jo toimintakuntoon ja erilaisia laitteita käyttöen testaamme palvelumme käyttöä. Palvelun tulisi olla käytettävissä tietokoneilla, Android laitteilla, sekä IOS laitteilla. 
+Testausvaiheessa olemme saaneet järjestelmän toimintakuntoon ja testaamme sen toimintaa erilaisissa olosuhteissa.
 
 
 ## Dokumentinhallinta
-Dokumenttien hallintaan käytämme GitHub palvelua, johon lisäämme kaikki raporttimme, sekä mahdollisesti käytettävät koodit. GitHub palvelussa meillä on jo luotuna Pilviteknologiat repository, johon molemmilla projektiin osallistuvilla on muokkaus/julkaisu oikeudet. 
+Dokumenttien hallintaan käytämme GitHub palvelua, johon lisäämme kaikki raporttimme, sekä mahdollisesti käytettävät koodit. GitHub palvelussa meillä on jo luotuna Projekti repository, johon kaikilla projektiin osallistuvilla on muokkaus/julkaisu oikeudet. 
 
-Käytämme virallisena raportointikielenä Englantia, sillä tahdomme käyttää dokumenttejamme mahdollisissa portfolioissamme jatkossa.
 
 Linkki GitHubiin :
-https://github.com/JarnoWer/Pilviteknologiat
+https://github.com/JarnoWer/Projekti
