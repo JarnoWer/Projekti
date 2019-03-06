@@ -1,4 +1,5 @@
 import gspread
+import datetime
 from oauth2client.service_account import ServiceAccountCredentials
 
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
@@ -11,7 +12,8 @@ wks = gc.open('pitemps').sheet1
 
 #wks.delete_row(2)
 
-print(wks.get_all_records())
-
+#print(wks.get_all_records())
+time = str(datetime.datetime.now().strftime('%d.%m.%Y %H:%M:%S' ))
+print(time)
+wks.append_row(values=[time])
 #wks.append_row(['column1', 'column2', 'column3'])
-
