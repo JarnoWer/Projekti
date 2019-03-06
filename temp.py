@@ -23,23 +23,18 @@ bus.write_byte_data(0x18, 0x08, 0x03)
 
 time.sleep(0.5)
 
-def takeTemp(): 
-	# MCP9808 address, 0x18(24)
-	# Read data back from 0x05(5), 2 bytes
-	# Temp MSB, TEMP LSB
-	data = bus.read_i2c_block_data(0x18, 0x05, 2)
-	# Convert the data to 13-bits
-	ctemp = ((data[0] & 0x1F) * 256) + data[1]
-	if ctemp > 4095 :
-		ctemp -= 8192
-	ctemp = ctemp * 0.0625
-	ftemp = ctemp * 1.8 + 32
+ 
+# MCP9808 address, 0x18(24)
+# Read data back from 0x05(5), 2 bytes
+# Temp MSB, TEMP LSB
+data = bus.read_i2c_block_data(0x18, 0x05, 2)
+# Convert the data to 13-bits
+ctemp = ((data[0] & 0x1F) * 256) + data[1]
+if ctemp > 4095 :
+	ctemp -= 8192
+ctemp = ctemp * 0.0625
+ftemp = ctemp * 1.8 + 32
 
-	# Output data to screen
-	print ('Temperature in Celsius is    : %.2f C' %ctemp)
+# Output data to screen
+print ('Temperature in Celsius is    : %.2f C' %ctemp)
 	
-i = 0
-while i > 6:
-	takeTemp()
-	time.sleep(60)
-	i += 1
