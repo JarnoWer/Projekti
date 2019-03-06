@@ -13,7 +13,7 @@ wks = gc.open('pitemps').sheet1
 #wks.delete_row(2)
 
 #print(wks.get_all_records())
-time = str(datetime.datetime.now().strftime('%d.%m.%Y %H:%M:%S' ))
+time = str(datetime.datetime.now().strftime('%d.%m.%Y %H:%M:%S'))
 print(time)
 wks.append_row(values=[time])
 #wks.append_row(['column1', 'column2', 'column3'])
