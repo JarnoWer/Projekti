@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import gspread
 import datetime
@@ -6,7 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 
-credentials = ServiceAccountCredentials.from_json_keyfile_name('PiTemps-7d01faf50d0e.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('/usr/local/PiTemps/PiTemps-7d01faf50d0e.json', scope)
 
 gc = gspread.authorize(credentials)
 
