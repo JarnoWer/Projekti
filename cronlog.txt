@@ -1,0 +1,39 @@
+/bin/sh: 1: /home/pi/Desktop/Projekti/application.py: Permission denied
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Projekti/application.py", line 11, in <module>
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('pitemps-key.json', scope)
+  File "/usr/local/lib/python3.5/dist-packages/oauth2client/service_account.py", line 219, in from_json_keyfile_name
+    with open(filename, 'r') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'pitemps-key.json'
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Projekti/application.py", line 11, in <module>
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('pitemps-key.json', scope)
+  File "/usr/local/lib/python3.5/dist-packages/oauth2client/service_account.py", line 219, in from_json_keyfile_name
+    with open(filename, 'r') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'pitemps-key.json'
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Projekti/application.py", line 11, in <module>
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('pitemps-key.json', scope)
+  File "/usr/local/lib/python3.5/dist-packages/oauth2client/service_account.py", line 219, in from_json_keyfile_name
+    with open(filename, 'r') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'pitemps-key.json'
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Projekti/application.py", line 11, in <module>
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('pitemps-key.json', scope)
+  File "/usr/local/lib/python3.5/dist-packages/oauth2client/service_account.py", line 219, in from_json_keyfile_name
+    with open(filename, 'r') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'pitemps-key.json'
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Projekti/application.py", line 11, in <module>
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('pitemps-key.json', scope)
+  File "/usr/local/lib/python3.5/dist-packages/oauth2client/service_account.py", line 219, in from_json_keyfile_name
+    with open(filename, 'r') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'pitemps-key.json'
+/bin/sh: 1: /usr/local/bin/python3: not found
+/bin/sh: 1: /usr/local/bin/python3: not found
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Projekti/application.py", line 11, in <module>
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('pitemps-key.json', scope)
+  File "/usr/local/lib/python3.5/dist-packages/oauth2client/service_account.py", line 219, in from_json_keyfile_name
+    with open(filename, 'r') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'pitemps-key.json'

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Projekti/I2CLCD/timelcd.py", line 5, in <module>
+    mylcd = I2C_LCD_driver.lcd()
+  File "/home/pi/Desktop/Projekti/I2CLCD/I2C_LCD_driver.py", line 111, in __init__
+    self.lcd_write(0x03)
+  File "/home/pi/Desktop/Projekti/I2CLCD/I2C_LCD_driver.py", line 136, in lcd_write
+    self.lcd_write_four_bits(mode | (cmd & 0xF0))
+  File "/home/pi/Desktop/Projekti/I2CLCD/I2C_LCD_driver.py", line 131, in lcd_write_four_bits
+    self.lcd_device.write_cmd(data | LCD_BACKLIGHT)
+  File "/home/pi/Desktop/Projekti/I2CLCD/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+OSError: [Errno 121] Remote I/O error
