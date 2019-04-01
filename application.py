@@ -32,8 +32,8 @@ if ctemp > 4095 :
 	ctemp -= 8192
 ctemp = ctemp * 0.0625
 
-date = str(datetime.datetime.now().strftime('%d.%m.%Y'))
-time = str(datetime.datetime.now().strftime('%H:%M:%S'))
+date = str(datetime.datetime.now().strftime('%d.%m.%Y %H:%M'))
+#time = str(datetime.datetime.now().strftime('%H:%M:%S'))
 
 
-wks.append_row([date, time, ("%.2f" % ctemp)])
+wks.append_row([date, ("%.2f" % ctemp)])
